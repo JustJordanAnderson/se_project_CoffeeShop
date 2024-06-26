@@ -106,12 +106,7 @@
             </label>
             <label for="guestNumber" class="form__label">
                 Number of guest *
-                <input
-                type="number"
-                id="guestNumber"
-                class="form__input"
-                placeholder=" 1-8"
-                />
+                <input type="number" id="guestNumber" class="form__input" placeholder=" 1-8" required/>
             </label>
             <label for="dateTime" class="form__label">
                 Date and time *
@@ -119,7 +114,7 @@
                 type="datetime-local"
                 id="dateTime"
                 class="form__input"
-                />
+                required/>
             </label>
             <label for="userEmail" class="form__label">
                 Your email *
@@ -128,6 +123,7 @@
                 id="userEmail"
                 class="form__input"
                 placeholder=" email@email.com"
+                required
                 />
             </label>
             </fieldset>
@@ -136,7 +132,7 @@
             for="termscheckbox"
             class="form__label form__label_type_checkbox"
             >
-            <input type="checkbox" id="termscheckbox" class="form__checkbox"/>I agree with with terms of use
+            <input type="checkbox" id="termscheckbox" class="form__checkbox" required/>I agree with with terms of use
             </label>
         </form>
         </section>

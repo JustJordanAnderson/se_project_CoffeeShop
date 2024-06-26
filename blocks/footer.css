@@ -27,7 +27,7 @@
 
 .footer__social-heading {
   color: rgb(255, 255, 255);
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -46,7 +46,7 @@
   transition: color 0.3s ease-in 0s;
   list-style: none;
   padding-left: 0;
-  margin: 0 auto 16px;
+  margin: 0;
 }
 
 .footer__social-item {
