@@ -28,11 +28,15 @@
             <header class="header">
             <!-- Nav Bar -->
             <nav class="nav">
-                <img
-                    src="./images/logo_coffeeshop_dark.svg"
-                    alt="Triple expresso"
-                    class="nav__logo"
-                />
+                <!-- Link to Top page using logo -->
+                <a href="#logo__link" class="nav__link">
+                    <img
+                        src="./images/logo_coffeeshop_dark.svg"
+                        alt="Triple expresso"
+                        class="nav__logo"
+                        id="footer__logo-top"
+                    />
+                </a>
                     <ul class="nav__links">
                     <li>
                         <a href="#recipes" class="nav__link">Recipes </a>
@@ -81,7 +85,7 @@
         </p>
         <div class="recipes__videos">
             <div>
-            <iframe src="https://www.youtube.com/embed/j6VlT_jUVPc?si=_XdKgECWyugwZtl3"class="recipes__iframe"></iframe>
+            <iframe src="https://www.youtube.com/embed/j6VlT_jUVPc?si=_XdKgECWyugwZtl3" class="recipes__iframe"></iframe>
             <p class="recipes__videos-caption">
                 <span>Aeropress recipe</span><span>~5min</span>
             </p>
@@ -228,13 +232,17 @@
         </section>
     </main>
     <!-- Footer Section -->
-    <footer class="footer" id="contacts">
+    <footer class="footer" id="">
         <div class="footer__content">
         <div class="footer__logo-section">
-            <img
-            src="./images/logo_coffeeshop_light.svg"
-            alt="TripleTen Logo"
-            class="footer__logo"/>
+            <!-- logo anchor tag -->
+            <a href="#footer__logo-top" class="nav__link">
+                <img
+                src="./images/logo_coffeeshop_light.svg"
+                alt="TripleTen Logo"
+                class="footer__logo"/
+                id="logo__link">
+            </a>
         </div>
         <div class="footer__social-section">
             <h3 class="footer__social-heading">Social media</h3>
